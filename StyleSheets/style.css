@@ -776,3 +776,84 @@ footer .content span.list {
   color: #ffa500;
   margin-right: 5px;
 }
+@media (max-width: 768px) {
+  /* General Footer Styling */
+  footer {
+    padding: 30px 10px;
+    margin-top: 50px;
+  }
+
+  footer .content {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .content > div {
+    margin-bottom: 20px; /* Add space between sections */
+  }
+
+  footer .content h2 {
+    font-size: 16px; /* Slightly larger headings for mobile */
+    margin-bottom: 15px;
+  }
+
+  footer li a {
+    font-size: 14px;
+  }
+
+  footer .content ul {
+    padding: 0;
+    list-style: none; /* Remove default list styling */
+  }
+
+  footer .content .email {
+    font-size: 14px;
+  }
+
+  footer .content .email span {
+    font-size: 14px;
+  }
+
+  footer .content .join {
+    width: 90%; /* Expand input container to fit screen */
+    margin: auto;
+  }
+
+  footer .content input[type="email"] {
+    width: 65%;
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+  }
+
+  footer .content .send-btn {
+    width: 30%;
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+  }
+
+  /* Social Media Section */
+  .footer .social-media {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between icons */
+  }
+
+  .footer .social-media img {
+    height: 30px; /* Reduce icon size */
+  }
+
+  /* Credit Section */
+  .footer .credit {
+    font-size: 12px;
+    color: #aaa; /* Subtle color for credits */
+  }
+}
