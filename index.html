@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Genius Education Zambia | Home</title>
     <link rel="shortcut icon" href="Icons/favicon.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="StyleSheets/style.css" />
     <!-- font faces -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -254,54 +259,39 @@
       </div>
     </section>
 
-    <footer>
-      <div class="content">
-        <div class="contact">
-          <ul>
-            <li>
-              <h2>
-                <br />Plot 35 Lunsemfya Way, Napsa <br />
-                Complex, Lusaka, Zambia
-              </h2>
-            </li>
-            <li><a href="tel:+260 97 5361136">Phone: +260 975 361 136</a></li>
-            <li><a href="tel:+260 97 3338403">+260 973 338 403</a></li>
-            <li class="email">
-              <a href="mailto:geniuseducationzambia@6pointsgenius.com"
-                >Email:<span>geniuseducationzambia@6pointsgenius.com</span></a
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-3">
+            <h5>Contact</h5>
+            <p>Plot 35 Lunsemfya Way, Napsa Complex, Lusaka, Zambia</p>
+            <p>
+              <a href="tel:+260975361136" class="text-white"
+                >+260 975 361 136</a
               >
-            </li>
-          </ul>
-        </div>
-        <div class="links">
-          <h2>Links</h2>
-          <ul>
-            <!-- <center> -->
-            <li>
-              <a href="index.html"><span class="list">&#10095;</span>Home</a>
-            </li>
-            <li>
-              <a href="about.html"
-                ><span class="list">&#10095;</span>About-Us</a
-              >
-            </li>
-            <li>
-              <a href="contact.html"
-                ><span class="list">&#10095;</span>Contact-Us</a
-              >
-            </li>
-            <li>
-              <a href="#"><span class="list">&#10095;</span>E-Learning</a>
-            </li>
-            <!-- </center> -->
-          </ul>
-        </div>
-        <div class="subscribe">
-          <h2>Join Our Newsletter</h2>
-          <div class="join">
-            <input type="email" name="" id="" />
-            <input type="submit" value="Send Email" class="send-btn" />
+            </p>
           </div>
+          <div class="col-lg-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white">Home</a></li>
+              <li><a href="about.html" class="text-white">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5>Newsletter</h5>
+            <form>
+              <input
+                type="email"
+                class="form-control mb-2"
+                placeholder="Enter your email"
+              />
+              <button class="btn btn-warning w-100">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <p>&copy; 2024 Genius Education Zambia | All Rights Reserved</p>
         </div>
       </div>
     </footer>
@@ -426,5 +416,7 @@
         showImage(currentIndex);
       });
     </script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
